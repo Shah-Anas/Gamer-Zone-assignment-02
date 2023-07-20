@@ -9,6 +9,10 @@
 }
 
 
+
+
+/* navbar start here */
+
 header{
     padding: 20px 240px;
 }
@@ -56,6 +60,8 @@ header{
     background-color: rgb(235, 235, 235);
     padding: 10px 20px;
     border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
     
 }
 .fa-youtube{
@@ -65,12 +71,7 @@ header{
 
 
 
-
-
-
-
-
-
+/* banner section start here */
 
 
 .banner1{
@@ -90,9 +91,7 @@ header{
 .banner1-items p{
     padding: 5px 0px;
 }
-/* .banner1-title{
-    width: 50%;
-} */
+
 .banner1-items img{
     width: 100%;
 }
@@ -138,6 +137,8 @@ header{
 
 
 
+/* banner2 section start here */
+
 .banner2{
 
     background-color: #fff9fc;
@@ -176,10 +177,15 @@ header{
     color: #ffffff;
     cursor: pointer;
 }
+
+
+
+/* Video section start here */
+
 .Video-container{
     min-height: 400px;
     padding: 0px 240px;
-    /* border: 1px solid green; */
+    
     display: flex;
     justify-content: space-between;
 }
@@ -198,8 +204,7 @@ header{
 }
 .vid-3 {
     position: relative;
-    /* width: 100%;
-    max-width: 400px; */
+    
   }
   
 
@@ -210,7 +215,7 @@ header{
     left: 0;
     right: 0;
     height: 90%;
-    /* width: 100%; */
+   
     opacity: 0;
     transition: .3s ease;
     background-color: rgb(0, 0, 0);
@@ -233,9 +238,6 @@ header{
   .fa-user:hover {
     color: #eee;
   }
-
-
-
 
 
 
@@ -284,7 +286,7 @@ header{
 }
 
 
-
+/* career section start here */
 
 .career-sec{
     padding: 0px 0px 0px 240px;
@@ -328,16 +330,19 @@ header{
 
 
 
+/* game catalog section start here */
+
 
 .catalog-container{
+    background-color: #fff9fc;
     padding: 0px 240px;
     padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* gap: 10px; */
-
+   
 }
 .s-game{
     width: auto;
@@ -346,10 +351,7 @@ header{
     margin: 20px;
     display: flex;
     align-items: center;
-    /* flex-basis: 240px; */
-   
-    /* padding-left: 5px; */
-    
+  
 }
 .s-game img{
     width: 50px;
@@ -363,12 +365,51 @@ header{
     padding-left: 15px;
 }
 .catalog-container :hover{
-    /* width: 240px;
-    height: 80px; */
+    
+    background-color: #ffffff;
     border: 2px solid #dd50bd;
     border-radius: 50px;
     overflow: hidden;
 }
-/* .catalog-container :hover img{
-    margin: -5px;
-} */
+
+
+
+
+
+
+.footer{
+    background-color: #0b0322ff;
+    padding: 0px 240px;
+    height: 500px;
+    text-align: center;
+ 
+    color: #ffffff;
+    padding-top: 100px;
+    
+}
+
+.footer-text1{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: #ffffff;
+    padding-top: 50px;
+    
+}
+.footer-icon a{
+    margin: 0px 20px 0px 20px;
+}
+.fa-brands{
+    /* gap: 30px; */
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-text2{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: #ffffff;
+    padding-bottom: 20px;
+    
+}

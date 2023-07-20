@@ -323,3 +323,52 @@ header{
     padding-top: 20px;
     color: #ffffff;
 }
+
+
+
+
+
+
+.catalog-container{
+    padding: 0px 240px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+
+}
+.s-game{
+    width: auto;
+    height: 80px;
+    padding: 20px 10px 20px 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    /* flex-basis: 240px; */
+   
+    /* padding-left: 5px; */
+    
+}
+.s-game img{
+    width: 50px;
+    height: 50px;
+    
+
+}
+.s-game p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-left: 15px;
+}
+.catalog-container :hover{
+    /* width: 240px;
+    height: 80px; */
+    border: 2px solid #dd50bd;
+    border-radius: 50px;
+    overflow: hidden;
+}
+/* .catalog-container :hover img{
+    margin: -5px;
+} */

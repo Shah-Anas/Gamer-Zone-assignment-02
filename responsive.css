@@ -1,0 +1,63 @@
+
+
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    header{
+        padding:0px;
+
+    }
+    .nav-container{
+        flex-direction: column;
+        height: 50vh;
+        /* justify-content: center; */
+        /* padding-bottom: 20px; */
+        
+    }
+    .banner1{
+        background-color:none;
+        height: 74vh;
+        /* width: 100%; */
+        background-image:url(./asset/images/Group\ 14.png);
+        background-repeat: no-repeat;
+    
+    }
+   
+    .nav-logo{
+        /* display: flex; */
+        /* align-items: center; */
+        width: 50%;
+    }
+    .nav-items-container{
+        /* display: grid; */
+        flex-direction: column;
+        /* justify-content: center; */
+        /* padding-bottom: 20px; */
+    }
+    .nav-items-container a{
+        padding-bottom: 20px;
+    }
+
+
+
+
+
+
+    /* .banner1{
+        background-color: none;
+
+    } */
+    .banner1-items{
+        flex-direction: column;
+        padding: 0px;
+        /* flex-direction: column-reverse; */
+    }
+   
+}
